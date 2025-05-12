@@ -15,28 +15,33 @@ A web application that extracts and organizes table of contents from books using
 
 Here are some screenshots of the application in action:
 
-![Upload Interface](./screenshots/upload-interface.png)
 *Image 1: The main upload interface for submitting documents*
+![Upload Interface](./screenshots/upload-interface.png)
 
-![Results View](./screenshots/results-view.png)
 *Image 2: Results page showing the detected text with bounding boxes*
+![Results View](./screenshots/results-view.png)
 
-![Book Index Detection](./screenshots/book-index-detection.png)
 *Image 3: OCR detecting and highlighting table of contents sections*
+![Book Index Detection](./screenshots/book-index-detection.png)
 
 ## Tech Stack
 
 ### Backend
-- Flask (Python web framework)
-- Surya OCR (for text extraction)
-- Flask-CORS (for handling cross-origin requests)
-- Pillow (for image processing)
+<p align="left">
+  <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" alt="Flask" />
+  <img src="https://img.shields.io/badge/Surya%20OCR-4B32C3?style=for-the-badge" alt="Surya OCR" />
+  <img src="https://img.shields.io/badge/Flask--CORS-5A9FD4?style=for-the-badge" alt="Flask-CORS" />
+  <img src="https://img.shields.io/badge/Pillow-8BC0D0?style=for-the-badge&logo=python&logoColor=white" alt="Pillow" />
+</p>
 
 ### Frontend
-- React (built with Vite)
-- Tailwind CSS (for styling)
-- Recharts (for visualizations)
-- Lucide React (for icons)
+<p align="left">
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
+  <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
+  <img src="https://img.shields.io/badge/Recharts-22B5BF?style=for-the-badge" alt="Recharts" />
+  <img src="https://img.shields.io/badge/Lucide_React-5E5CE6?style=for-the-badge" alt="Lucide React" />
+</p>
 
 ## Prerequisites
 
