@@ -11,6 +11,19 @@ A web application that extracts and organizes table of contents from books using
 - **Real-time Preview**: Live preview of detected text and formatting
 - **Responsive Design**: Works well on different screen sizes
 
+## Screenshots
+
+Here are some screenshots of the application in action:
+
+![Upload Interface](./screenshots/upload-interface.png)
+*Image 1: The main upload interface for submitting documents*
+
+![Results View](./screenshots/results-view.png)
+*Image 2: Results page showing the detected text with bounding boxes*
+
+![Book Index Detection](./screenshots/book-index-detection.png)
+*Image 3: OCR detecting and highlighting table of contents sections*
+
 ## Tech Stack
 
 ### Backend
@@ -91,7 +104,7 @@ npm run dev
 
 ## Usage
 
-1. Access the application at `http://localhost:3000`
+1. Access the application at `http://localhost:5173`
 2. Click on the upload area or drag and drop an image of a book's table of contents
 3. Click "Extract Index" to process the image
 4. View the results:
@@ -116,6 +129,7 @@ Content-Organization-System/
 │   │   └── App.jsx          # Main application
 │   ├── public/              # Public assets
 │   └── package.json         # Node.js dependencies
+├── screenshots/
 ├── setup.sh                 # Setup and launch script
 └── README.md               # This file
 ```
